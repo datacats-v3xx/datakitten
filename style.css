@@ -22,7 +22,11 @@ body {
     cursor: pointer;
 }
 
-#message {
-    font-size: 1.2em;
-    margin-top: 20px;
+#fish {
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: grab;
 }
